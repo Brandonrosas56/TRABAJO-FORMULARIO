@@ -27,35 +27,32 @@
             color: black;
             font-family:Verdana, Geneva, Tahoma, sans-serif;
         }
-
-        h5{
+        form{
             color: white;
+            margin: 30px;
             font-family: Verdana, Geneva, Tahoma, sans-serif;
-            margin-top: 75px;
-
-        }
-        h4{
-            color: white;
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-            margin-top: 45px;
         }
         
     </style>
 </head>
 <body>
-    
-    <center>
-    <h5>Seleccione su ciudad</h5>
-    </center>
-    <center>
-    <h4>Seleccione su genero</h4>
-    </center>
-  <center> 
+<center>
+    <img src=./registrese.jpg  width="350px" >
+</center>
+
+ <center> 
 <input type="text"  placeholder="Escriba Sus Nombres"> </br>
+
 <input type="text"  placeholder="Escriba Sus Apellidos"> </br>
+
 <input type="email"  placeholder="Escriba Su correo"> </br>
+
 <input type="number" placeholder="Escriba su documento"> </br>
-<input type="date"> </br>
+
+<form name="subida una foto" type="post" enctype="multipart/form-data" >
+<input type="file" name="imagen"/>
+</form>
+
 <select>  
     <option value="">Bogota</option>
     <option value="">Medellin</option>
@@ -74,7 +71,7 @@
      <option value="">Femenino</option>
 </select> </br>
 
-<input type="number" placeholder="Escriba Su Numero"> </br>
+<input type="number" placeholder="Escriba Su Numero telefonico"> </br>
 
 </center>  
 
